@@ -3,4 +3,4 @@ library(ggplot2)
 
 # grafico de barras
 ggplot(data = ToothGrowth, aes( x = supp, y = len, fill = dose) ) +
-  geom_col(position = "fill")
+  geom_col(position = "dodge")
